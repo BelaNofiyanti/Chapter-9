@@ -44,7 +44,7 @@
         <h6>Here Are Some Suggested Words</h6>
         <div>
           {% for suggestion in suggestions %}
-          <a href="#" class="btn btn-primary" style="margin-bottom: 5px"
+          <a href="/detail/{{suggestion}}" class="btn btn-primary" style="margin-bottom: 5px"
             >{{suggestion}}</a
           >
           {% endfor %}
